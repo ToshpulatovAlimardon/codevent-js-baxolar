@@ -1,1 +1,1 @@
-https://toshpulatovalimardon.github.io/codevent-baxolar/
+https://toshpulatovalimardon.github.io/codevent-js-baxolar/
