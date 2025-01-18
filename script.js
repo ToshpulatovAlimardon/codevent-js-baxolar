@@ -34,7 +34,7 @@ document.querySelectorAll(".task").forEach(cell => {
       });
 
       // Maksimal ballni belgilash
-      let maxTotalPoints = 20; // 3 ta vazifa, har biri maksimal 5 ball
+      let maxTotalPoints = 25; // 3 ta vazifa, har biri maksimal 5 ball
 
       // O'rtacha foizni hisoblash
       let percentage = (total / maxTotalPoints) * 100;  // 5 ballik tizimda foizni hisoblash
@@ -57,7 +57,7 @@ window.addEventListener('load', function() {
           total += parseFloat(taskCell.textContent) || 0; // Ballarni yig'ish
       });
 
-      let maxTotalPoints = 20; // 4 ta vazifa, har biri maksimal 5 ball
+      let maxTotalPoints = 25; // 4 ta vazifa, har biri maksimal 5 ball
       let percentage = (total / maxTotalPoints) * 100;  // foizni hisoblash
       let totalCell = row.querySelector(".ball");
       totalCell.textContent = percentage.toFixed(2) + "%"; // Sahifa yuklanganda foizni chiqarish
